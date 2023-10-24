@@ -1,0 +1,27 @@
+.titulo {
+  background-color: #06090F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+#titulo {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+#intro {
+  color: #f1f3f7;
+  text-align: center;
+  font-size: 1.4rem;
+}

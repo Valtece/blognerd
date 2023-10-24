@@ -1,0 +1,46 @@
+.container-principal {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 100px;
+}
+
+header {
+    background-color: #06090F;
+    border-bottom: 2px solid rgb(9, 15, 23);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    margin-left: 15px;
+    padding: 5px 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+ul li:last-child {
+    background-color: #64c1c4dc;
+    border-radius: 4px;
+}
+
+
+.mobile {
+    display: none;
+}

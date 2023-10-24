@@ -1,0 +1,74 @@
+
+.containerLogin {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 850px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  padding: 35px 25px;
+  border-radius: 5px;
+}
+
+.containerLogin .login-form .title{
+  position: relative;
+  font-size: 22px;
+  font-weight: 500;
+  color: #06090F;
+}
+
+.container .login-form .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 25px;
+  background-color: var(--default-color);
+
+}
+
+.container .login-form .input-box{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+.container .login-form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.container .login-form .input-box input:focus,
+.container .login-form .input-box input:valid{
+    border-color: #06090F;
+}
+
+.container .login-form .input-box input[type="submit"]{
+    background-color: #06090F;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .login-form .forgot a{
+  color: #2b5758;
+  text-decoration: none;
+}
+
+.container .login-form .sigup-text a{
+  color: #2b5758;
+  text-decoration: none;
+}
