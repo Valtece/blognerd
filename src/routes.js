@@ -10,7 +10,7 @@ function RoutesApp(){
     <BrowserRouter>
       <Menu/>
       <Routes>
-        <Route path='blognerd' element={ <Home/> } />
+        <Route path='/blognerd' element={ <Home/> } />
         <Route path='/login' element={ <Login/> } />
         <Route path='/cadastro' element={ <Signup/> } />
       </Routes>

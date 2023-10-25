@@ -9,12 +9,12 @@ function Menu() {
         <header>
           <nav>
             <div>
-              <a href='blognerd'>
+              <a href='/blognerd'>
                 <img src={logo}/>
               </a>
             </div>
             <ul>
-              <li><a href='blognerd'>Início</a></li>
+              <li><a href='/blognerd'>Início</a></li>
               <li><a href='#'>Tec</a></li>
               <li><a href='#'>Séries</a></li>
               <li><a href='#'>Filmes</a></li>
