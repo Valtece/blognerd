@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Home from './pages/Home';
 import Menu from "./components/Menu";
@@ -7,14 +7,11 @@ import Signup from "./components/Signup"
 
 function RoutesApp(){
   return(
-    <BrowserRouter>
-      <Menu/>
-      <Routes>
-        <Route path='/blognerd' element={ <Home/> } />
-        <Route path='/login' element={ <Login/> } />
-        <Route path='/cadastro' element={ <Signup/> } />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path='/blognerd' element={ <Home/> } />
+      <Route path='/login' element={ <Login/> } />
+      <Route path='/cadastro' element={ <Signup/> } />
+    </Routes>
   )
 }
 
