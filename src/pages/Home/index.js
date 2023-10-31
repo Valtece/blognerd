@@ -1,6 +1,7 @@
 import './styleHome.css';
 import Title from '../../components/Title';
 import New from '../../components/New';
+import Slider from '../../components/Slider';
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
         <main>
           <Title/>
           <New/>
+          <Slider/>
         </main>
       </div>
     </div>

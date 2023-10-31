@@ -3,7 +3,7 @@ import gta from "./gta.jpeg"
 import swat from "./swat.jpg"
 import gran from "./gran.jpg"
 
-function New(){
+export default function New(){
   return(
     <div>
       <section className="artigos">
@@ -50,4 +50,3 @@ function New(){
   
 }
 
-export default New;

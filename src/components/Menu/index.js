@@ -1,8 +1,14 @@
 import "./style.css";
 import logo from "./logo.png"
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../contexts/auth";
+import { useContext } from "react";
 
-function Menu() {
+export default function Menu(){
+  const { signed } = useContext(AuthContext);
+
+  console.log(signed);
+
   return (
     <div className="container">
       <div>
@@ -27,6 +33,6 @@ function Menu() {
       </div>
     </div>
   );
+  
 }
 
-export default Menu;

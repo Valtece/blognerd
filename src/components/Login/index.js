@@ -14,7 +14,7 @@ export default function Login(){
   async function handleSignIn(e){
     e.preventDefault();
 
-    if(email !== " && password !== "){
+    if(email !== "" && password !== ""){
       await signIn(email, password);
     }
 
