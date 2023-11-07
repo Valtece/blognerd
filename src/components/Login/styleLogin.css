@@ -79,3 +79,38 @@
   color: #2b5758;
   text-decoration: none;
 }
+
+@media (max-width: 1000px) {
+  .containerLogin {
+    margin: 20px auto;
+    padding: 0px 20px;
+    border-radius: 5px;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 850px) {
+  .containerLogin {
+    margin: 20px auto;
+    padding: 80px 10px;
+    border-radius: 5px;
+    max-width: 400px;
+  }
+
+  .login-img {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .containerLogin {
+    margin: 20px auto;
+    padding: 60px 0px;
+    border-radius: 5px;
+    max-width: 350px;
+  }
+
+  .login-img {
+    display: none;
+  }
+}
