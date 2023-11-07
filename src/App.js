@@ -24,7 +24,7 @@ function App() {
           <ToastContainer autoClose={3000} limit={1}/>
           <RoutesApp/>
         </AuthProvider>
-        <Footer/>
+        {/*<Footer/>*/}
       </BrowserRouter>
     </div>
   );

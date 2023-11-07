@@ -21,7 +21,7 @@ export default function Login(){
   }
 
   return(
-    <div>
+    <div className='container-centro'>
       <section className="containerLogin">
         <div className='login-form'>
           <div className='title'>Login</div>

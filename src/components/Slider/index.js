@@ -19,13 +19,37 @@ export default function Slider(){
         slidesPerView={3}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
+        breakpoints={{
+          100: {
+            slidesPerView: 1
+          },
+          760: {
+            slidesPerView: 2
+          },
+          1000: {
+            slidesPerview: 3
+          }
+        }}
       >
         <SwiperSlide>
           <a href="#">
             <article className="artigoSlider">
               <div className="gradiente"></div>
               <img src={swat}/>
-              <div className="title-artigo">
+              <div className="title-artigo slider">
+                <span className="category"><span className="category-name name-mobile">Loren</span></span>
+                <h2 className="text-slider">Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
+              </div>
+            </article>
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <a href="#">
+            <article>
+              <div className="gradiente"></div>
+              <img src={swat}/>
+              <div className="title-artigo slider">
                 <span className="category"><span className="category-name">Loren</span></span>
                 <h2>Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
               </div>
@@ -38,20 +62,7 @@ export default function Slider(){
             <article>
               <div className="gradiente"></div>
               <img src={swat}/>
-              <div className="title-artigo">
-                <span className="category"><span className="category-name">Loren</span></span>
-                <h2>Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
-              </div>
-            </article>
-          </a>
-        </SwiperSlide>
-
-        <SwiperSlide>
-        <a href="#">
-            <article>
-              <div className="gradiente"></div>
-              <img src={swat}/>
-              <div className="title-artigo">
+              <div className="title-artigo slider">
                 <span className="category"><span className="category-name">Loren</span></span>
                 <h2>Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
               </div>
@@ -64,7 +75,7 @@ export default function Slider(){
             <article className="artigoSlider">
               <div className="gradiente"></div>
               <img src={swat}/>
-              <div className="title-artigo">
+              <div className="title-artigo slider">
                 <span className="category"><span className="category-name">Loren</span></span>
                 <h2>Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
               </div>

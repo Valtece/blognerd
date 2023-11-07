@@ -40,7 +40,50 @@ ul li:last-child {
     border-radius: 4px;
 }
 
+.img-menu {
+    width: 100%;
+}
+
 
 .mobile {
     display: none;
+}
+
+@media (max-width: 860px) {
+    .menu {
+        display: none;
+    }
+
+    .img-menu {
+        width: 80%;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}
+
+@media (max-width: 490px) {
+    nav {
+        padding: 0px 40px;
+    }
+
+    .container-principal {
+        padding: 0px 40px;
+    }
+}
+
+@media (max-width: 380px) {
+    nav {
+        padding: 0px 30px;
+    }
+
+    .container-principal {
+        padding: 0px 30px;
+    }
+
+    .img-menu {
+        width: 60%;
+    }
 }

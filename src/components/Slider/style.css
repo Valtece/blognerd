@@ -18,3 +18,25 @@ img {
   margin-bottom: 25px;
 }
 
+@media (max-width: 1140px) {
+  article .slider h2 {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  article .slider h2 {
+    font-size: 1rem;
+  }
+
+  article .slider span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 490px) {
+  article .slider h2 {
+    font-size: 0.8rem;
+   }
+}
+

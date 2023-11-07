@@ -16,10 +16,10 @@ export default function Menu(){
           <nav>
             <div>
               <a href='/blognerd'>
-                <img src={logo}/>
+                <img className="img-menu" src={logo}/>
               </a>
             </div>
-            <ul>
+            <ul className="menu">
               <li><a href='/blognerd'>Início</a></li>
               <li><a href='#'>Tec</a></li>
               <li><a href='#'>Séries</a></li>
@@ -27,7 +27,7 @@ export default function Menu(){
               <li><a href='#'>Jogos</a></li>
               <li><Link to="/login">Entrar</Link></li>
             </ul>
-            <div className="mobile"></div>
+            <div className="mobile">MENU</div>
           </nav>
         </header>
       </div>

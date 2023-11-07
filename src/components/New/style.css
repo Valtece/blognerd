@@ -59,3 +59,48 @@ article {
   line-height: 140%;
   font-weight: 400;
 }
+
+@media (max-width: 1140px) {
+  .title-artigo h2 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 876px) {
+ .artigos  {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 24px;
+  margin: 0px auto;
+  padding: 50px 0px;
+ }
+
+ article .title-artigo-mobile h2 {
+  font-size: 1.6rem;
+ }
+}
+
+@media (max-width: 876px) {
+  article .title-artigo-mobile h2 {
+    font-size: 1rem;
+   }
+}
+
+@media (max-width: 590px) {
+  article .title-artigo-mobile h2 {
+    font-size: 0.8rem;
+   }
+}
+
+@media (max-width: 490px) {
+  article .title-artigo-mobile h2 {
+    font-size: 0.8rem;
+   }
+}
+
+@media (max-width: 380px) {
+  article .title-artigo-mobile h2 {
+    font-size: 0.7rem;
+   }
+}
+
