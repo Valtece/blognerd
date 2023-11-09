@@ -61,11 +61,23 @@ ul li:last-child {
 }
 
 .mobile-menu {
-    display: none;
+    position: fixed;
+    right: 0;
+    width: 50%;
+    background-color: #7b05e9;
+    z-index: 1000; 
+    border-radius: 4px;
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .open {
     display: block;
+    max-height: 100vh;
+    opacity: 1;
 }
 
 
@@ -100,17 +112,6 @@ ul li:last-child {
         cursor: pointer;
     }
 
-    .mobile-menu {
-        position: fixed;
-        right: 0;
-        width: 50%; /* Defina a largura desejada */
-        max-height: 100vh; /* Altura máxima da janela de visualização */
-        background-color: #64c1c4; /* Cor de fundo do menu */
-        overflow-y: auto; /* Adicione uma barra de rolagem quando o menu for maior do que a altura máxima */
-        z-index: 1000; /* Z-index alto para sobrepor outros elementos */
-        border-radius: 3px;
-    }
-
     .menu-mobile {
         display: flex;
         flex-direction: column;
@@ -122,10 +123,6 @@ ul li:last-child {
         margin-bottom: 18px;
         margin-left: 0px;
     }
-
-    
-   
-
 }
 
 @media (max-width: 490px) {
