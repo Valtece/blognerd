@@ -32,7 +32,7 @@ export default function Slider(){
         }}
       >
         <SwiperSlide>
-          <a href="#">
+          <a href="/filme">
             <article className="artigoSlider">
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -45,7 +45,7 @@ export default function Slider(){
         </SwiperSlide>
 
         <SwiperSlide>
-        <a href="#">
+        <a href="/filme">
             <article>
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -58,7 +58,7 @@ export default function Slider(){
         </SwiperSlide>
 
         <SwiperSlide>
-        <a href="#">
+        <a href="/filme">
             <article>
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -71,7 +71,7 @@ export default function Slider(){
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="#">
+          <a href="/filme">
             <article className="artigoSlider">
               <div className="gradiente"></div>
               <img src={swat}/>

@@ -8,7 +8,7 @@ export default function New(){
     <div>
       <section className="artigos">
         <div  className="artigo">
-          <a href="#">
+          <a href="/filme">
             <article>
               <div className="gradiente"></div>
               <img src={gta} className="img-article" />
@@ -20,7 +20,7 @@ export default function New(){
           </a>
         </div>
         <div  className="artigo">
-          <a href="#">
+          <a href="/filme">
             <article>
               <div className="gradiente"></div>
               <img src={swat} className="img-article" />
@@ -32,7 +32,7 @@ export default function New(){
           </a>
         </div>
         <div  className="artigo">
-          <a href="#">
+          <a href="/filme">
               <article>
                 <div className="gradiente"></div>
                 <img src={gran} className="img-article" />
