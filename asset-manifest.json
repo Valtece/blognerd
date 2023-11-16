@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/blognerd/static/css/main.67a84830.css",
-    "main.js": "/blognerd/static/js/main.2355fb5d.js",
+    "main.css": "/blognerd/static/css/main.516b9e90.css",
+    "main.js": "/blognerd/static/js/main.1844a60c.js",
     "static/media/gta.jpeg": "/blognerd/static/media/gta.49a03ad4d696009d76c5.jpeg",
     "static/media/login.png": "/blognerd/static/media/login.4629b4e9c4f8d5db472d.png",
     "static/media/swat.jpg": "/blognerd/static/media/swat.0fc0dd807810ead9999b.jpg",
     "static/media/gran.jpg": "/blognerd/static/media/gran.d71bf9b0944d52104feb.jpg",
     "index.html": "/blognerd/index.html",
-    "main.67a84830.css.map": "/blognerd/static/css/main.67a84830.css.map",
-    "main.2355fb5d.js.map": "/blognerd/static/js/main.2355fb5d.js.map"
+    "main.516b9e90.css.map": "/blognerd/static/css/main.516b9e90.css.map",
+    "main.1844a60c.js.map": "/blognerd/static/js/main.1844a60c.js.map"
   },
   "entrypoints": [
-    "static/css/main.67a84830.css",
-    "static/js/main.2355fb5d.js"
+    "static/css/main.516b9e90.css",
+    "static/js/main.1844a60c.js"
   ]
 }
