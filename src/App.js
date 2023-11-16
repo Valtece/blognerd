@@ -37,7 +37,7 @@ function App() {
     <div className="container">
       <BrowserRouter>
         <Menu acao={ativaCor}/>
-        <NomePerfil/>
+        {/*<NomePerfil/>*/}
         <AuthProvider>
           <ToastContainer autoClose={3000} limit={1}/>
           <RoutesApp/>
