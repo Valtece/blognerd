@@ -1,6 +1,5 @@
 import RoutesApp from "./routes";
 import Menu from "./components/Menu";
-import NomePerfil from "./components/NomePerfil";
 
 import { useState, useEffect } from "react";
 import AuthProvider from './contexts/auth'

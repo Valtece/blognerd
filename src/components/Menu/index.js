@@ -17,8 +17,6 @@ export default function Menu({acao}){
     }
   }
 
- 
-
   return (
     <div>
       <div>

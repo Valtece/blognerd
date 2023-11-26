@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 6px; /* largura da barra de rolagem */
+}
+
+/* Cor do "rastro" da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #57a8ab; /* cor da barra de rolagem */
+  border-radius: 6px; /* borda arredondada */
+}
