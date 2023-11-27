@@ -27,7 +27,7 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0px auto;
-    padding: 7px 100px;
+    padding: 2px 100px;
     
 }
 
@@ -74,7 +74,8 @@ ul li:last-child {
 }
 
 .mobile-menu {
-    position: fixed;
+    position: absolute;
+    top: 100%;
     right: 0;
     width: 50%;
     background-color: #09101cfd;

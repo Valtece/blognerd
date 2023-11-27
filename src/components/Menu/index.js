@@ -40,19 +40,20 @@ export default function Menu({acao}){
               <div className="traço"></div>
               <div className="traço"></div>
             </button>
+
+            <div className="mobile-menu">
+              <ul className="menu-mobile">
+                <li id="margin"><a href='/blognerd'>Início</a></li>
+                <li><a href='#'>Tec</a></li>
+                <li><a href='#'>Séries</a></li>
+                <li><a href='#'>Filmes</a></li>
+                <li><a href='#'>Jogos</a></li>
+                <li><Link to="/login">Entrar</Link></li>
+              </ul>
+            </div>
+            
           </nav>
         </header>
-
-        <div className="mobile-menu">
-          <ul className="menu-mobile">
-            <li id="margin"><a href='/blognerd'>Início</a></li>
-            <li><a href='#'>Tec</a></li>
-            <li><a href='#'>Séries</a></li>
-            <li><a href='#'>Filmes</a></li>
-            <li><a href='#'>Jogos</a></li>
-            <li><Link to="/login">Entrar</Link></li>
-          </ul>
-        </div>
       </div>
     </div>
   );
