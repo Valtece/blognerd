@@ -44,3 +44,9 @@ body {
   font-size: 18px;
   margin-top: 30px;
 }
+
+@media (max-width: 490px) {
+  .filmes {
+    padding: 0px 50px;
+  }
+}
