@@ -3,8 +3,44 @@ body {
   padding: 0;
   background-color: #06090F;
   font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .filmes {
-  padding: 100px 0 0 0 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 100px;
+}
+
+.categoria{
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.titulo-filme {
+  font-size: 23px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.box-filme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+}
+
+.img-filme {
+  width: 100%;
+}
+
+.descricao-filme {
+  font-size: 18px;
+  margin-top: 30px;
 }
