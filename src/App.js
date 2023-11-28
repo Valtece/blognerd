@@ -13,10 +13,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-
 register();
 
-function App() {
+export default function App() {
 
   const [ativaCor, setAtivaCor] = useState(false);
 
@@ -36,7 +35,6 @@ function App() {
     <div className="container">
       <BrowserRouter>
         <Menu acao={ativaCor}/>
-        {/*<NomePerfil/>*/}
         <AuthProvider>
           <ToastContainer autoClose={3000} limit={1}/>
           <RoutesApp/>
@@ -47,4 +45,4 @@ function App() {
   );
 }
 
-export default App;
+

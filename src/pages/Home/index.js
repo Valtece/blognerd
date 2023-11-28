@@ -3,7 +3,7 @@ import Title from '../../components/Title';
 import New from '../../components/New';
 import Slider from '../../components/Slider';
 
-function Home() {
+export default function Home() {
   return (
     <div className="container">
       <div className='container-principal'>
@@ -17,4 +17,3 @@ function Home() {
   );
 }
 
-export default Home;

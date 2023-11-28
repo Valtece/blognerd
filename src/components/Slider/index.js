@@ -5,18 +5,17 @@ import swat from './swat.jpg';
 import { Swiper, SwiperSlide  } from 'swiper/react'
 
 export default function Slider(){
-  const [sliderPerView, setSliderPerVier] = useState(2);
+  const [sliderPerView, setSliderPerVier] = useState(3);
   return(
     <div className="container-slider">
       <div className="container-titulo">
         <span className="titulo-slider">Descubra mais</span>
       </div>
       <Swiper
-        slidesPerView={sliderPerView}
+        slidesPerView={sliderPerView} 
         pagination={{ clickable: true }}
         navigation
         spaceBetween={18}
-        slidesPerView={3}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         breakpoints={{
@@ -32,7 +31,7 @@ export default function Slider(){
         }}
       >
         <SwiperSlide>
-          <a href="/filme">
+          <a href="/:id">
             <article className="artigoSlider">
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -45,7 +44,7 @@ export default function Slider(){
         </SwiperSlide>
 
         <SwiperSlide>
-        <a href="/filme">
+        <a href="/:id">
             <article>
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -58,7 +57,7 @@ export default function Slider(){
         </SwiperSlide>
 
         <SwiperSlide>
-        <a href="/filme">
+        <a href="/:id">
             <article>
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -71,7 +70,7 @@ export default function Slider(){
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="/filme">
+          <a href="/:id">
             <article className="artigoSlider">
               <div className="gradiente"></div>
               <img src={swat}/>

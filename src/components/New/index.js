@@ -1,14 +1,16 @@
 import "./style.css";
+import { Link } from "react-router-dom";
 import gta from "./gta.jpeg"
 import swat from "./swat.jpg"
 import gran from "./gran.jpg"
+
 
 export default function New(){
   return(
     <div>
       <section className="artigos">
         <div  className="artigo">
-          <a href="/filme">
+        <Link to="/:id">
             <article>
               <div className="gradiente"></div>
               <img src={gta} className="img-article" />
@@ -17,10 +19,10 @@ export default function New(){
                 <h2>Enquanto a Rockster não revela informações, o provável ator principal de GTA VI deu uma pista aos fãs.</h2>
               </div>
             </article>
-          </a>
+          </Link>
         </div>
         <div  className="artigo">
-          <a href="/filme">
+          <a href="/:id">
             <article>
               <div className="gradiente"></div>
               <img src={swat} className="img-article" />
@@ -32,7 +34,7 @@ export default function New(){
           </a>
         </div>
         <div  className="artigo">
-          <a href="/filme">
+          <a href="/:id">
               <article>
                 <div className="gradiente"></div>
                 <img src={gran} className="img-article" />
