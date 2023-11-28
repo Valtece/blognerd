@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/blognerd/static/css/main.f65fc40a.css",
-    "main.js": "/blognerd/static/js/main.b405ead7.js",
+    "main.js": "/blognerd/static/js/main.0f419854.js",
     "static/media/gta.jpeg": "/blognerd/static/media/gta.49a03ad4d696009d76c5.jpeg",
     "static/media/login.png": "/blognerd/static/media/login.007bf514f15fa9a63d99.png",
     "static/media/swat.jpg": "/blognerd/static/media/swat.0fc0dd807810ead9999b.jpg",
     "static/media/gran.jpg": "/blognerd/static/media/gran.d71bf9b0944d52104feb.jpg",
     "index.html": "/blognerd/index.html",
     "main.f65fc40a.css.map": "/blognerd/static/css/main.f65fc40a.css.map",
-    "main.b405ead7.js.map": "/blognerd/static/js/main.b405ead7.js.map"
+    "main.0f419854.js.map": "/blognerd/static/js/main.0f419854.js.map"
   },
   "entrypoints": [
     "static/css/main.f65fc40a.css",
-    "static/js/main.b405ead7.js"
+    "static/js/main.0f419854.js"
   ]
 }
