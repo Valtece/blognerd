@@ -10,7 +10,7 @@ export default function New(){
     <div>
       <section className="artigos">
         <div  className="artigo">
-        <Link to="/:id">
+          <Link to="/:id">
             <article>
               <div className="gradiente"></div>
               <img src={gta} className="img-article" />
@@ -22,7 +22,7 @@ export default function New(){
           </Link>
         </div>
         <div  className="artigo">
-          <a href="/:id">
+          <Link to="/:id">
             <article>
               <div className="gradiente"></div>
               <img src={swat} className="img-article" />
@@ -31,10 +31,10 @@ export default function New(){
                 <h2>SWAT: A série foi oficialmente renovada para a 7ª temporada, que também será a última da produção. O ciclo final contará com 13 episódios.</h2>
               </div>
             </article>
-          </a>
+          </Link>
         </div>
-        <div  className="artigo">
-          <a href="/:id">
+          <div  className="artigo">
+            <Link to="/:id">
               <article>
                 <div className="gradiente"></div>
                 <img src={gran} className="img-article" />
@@ -43,8 +43,8 @@ export default function New(){
                   <h2>Gran Turismo: De Jogador a Corredor: é um filme norte-americano de ação e drama que leva o nome da franquia de jogos homônima iniciada em 1997.</h2>
                 </div>
               </article>
-            </a>
-        </div>
+            </Link>
+          </div>
       </section>
     </div>
   )

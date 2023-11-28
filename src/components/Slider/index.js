@@ -31,7 +31,7 @@ export default function Slider(){
         }}
       >
         <SwiperSlide>
-          <a href="/:id">
+          <Link to="/:id">
             <article className="artigoSlider">
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -40,11 +40,11 @@ export default function Slider(){
                 <h2 className="text-slider">Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
               </div>
             </article>
-          </a>
+          </Link>
         </SwiperSlide>
 
         <SwiperSlide>
-        <a href="/:id">
+          <Link to="/:id">
             <article>
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -53,11 +53,11 @@ export default function Slider(){
                 <h2>Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
               </div>
             </article>
-          </a>
+          </Link>
         </SwiperSlide>
 
         <SwiperSlide>
-        <a href="/:id">
+          <Link to="/:id">
             <article>
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -66,11 +66,11 @@ export default function Slider(){
                 <h2>Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
               </div>
             </article>
-          </a>
+          </Link>
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="/:id">
+          <Link to="/:id">
             <article className="artigoSlider">
               <div className="gradiente"></div>
               <img src={swat}/>
@@ -79,7 +79,7 @@ export default function Slider(){
                 <h2>Lorem Ipsum is simply dummy <br/> text of the printing and <br/> typesetting industry.</h2>
               </div>
             </article>
-          </a>
+          </Link>
         </SwiperSlide>
 
       </Swiper>
